@@ -1,20 +1,108 @@
-
-.main{
+header{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
- 
+    justify-content:right;
+}
+header button{
+    background-color: chartreuse;
+    color: black;
+    border-style: solid;
+    border-radius: 10%;
+    padding: 10px;
+}
+header button :hover{
+    cursor: e-resize;
+    color: darkmagenta;
+}
+nav ul li {
+    display: inline;
+    padding: 10px;
 
-}.Adv{
-   
-     
-    
-    
+} 
+select{
+    border-style: solid;
+    border: none;
+    border-radius: 10px;
+    background-color:lightgreen;
 }
-.Adv2{
-   
+select :hover{
+    cursor: pointer;
+    color: darkmagenta;
 }
-.Adv3{
+.logo{
+   margin-right: auto;
+}
+.content{
+    color:rgb(3, 6, 8);
+    display: flex;
+    padding: 80px 10%;
+    justify-content: space-between;
+}
+.indent button{
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: green;
+}
+.wrapper{
+    background-image: url(IMG-\ 2001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    width: 100% ;
+    display: block;
+    z-index:1;
     
+  }
+  .wrapper:before{
+    position:absolute;
+    content: '';
+    background-image: linear-gradient( 109.6deg,  rgba(254,253,205,1) 11.2%, rgba(163,230,255,1) 91.1% );
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    z-index: -1;
+} 
+.contentimg img{
+    border: 10px b black;
+    border-style: solid;
+    border-radius: 30%;
+    border: none;
+}
+.fa-brands fa-linkedin{
+    size: 50%;
+}
+.indent{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+.connect{
+   text-align: center;
+   border-style: solid;
+   border: 20px black;
+   border-radius: 20%;
+   background-color: whitesmoke;
+   margin-left: 200px;
+   margin-right: 200px;
+   margin-bottom: 50px;
+}
+.connect button{
+    background-color: blue;
+    color: aliceblue;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+}
+.last ul li{
+    display: inline;
+    padding: 10px;
 }
