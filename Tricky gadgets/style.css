@@ -1,0 +1,94 @@
+*{
+    font-family: montserrati;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(184,75,171,1) 56%, rgba(0,212,255,1) 100%);
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.navbar-nav a{
+    font-size: 15px;
+}
+.about{
+   margin: 25px ;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   border-style: solid;
+   padding: 0%;
+}
+.about .card{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,165,184,1) 63%, rgba(0,212,255,1) 100%);
+}
+
+.response {
+    margin: 25px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    padding: 10px;
+}
+.container h3{
+    background-color: azure;
+    text-align: center;
+    font-weight: bolder;
+
+}
+.col-md-12 .carousel-slid{
+    margin-top: 15%;
+    transition:all 0.3s;
+}
+.col-md-12 .carousel-slid:hover{
+    transform: scale(1.15);
+}
+.img-text{
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 40% 5%;
+    background: #262626;
+    color: #fff;
+    border-radius: 15px;
+}
+.img-text h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.img-text p{
+    font-size: 10px;
+}
+.single-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+.img-area{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+    overflow: hidden;
+    top:15px;
+    left: 125px;
+    border-radius: 50%;
+}
+.testi{
+    margin: 25px ;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   border-style: solid #fff;
+   padding: 0%;
+
+}
+
+.card{
+    transition:all 0.3s;
+}
+.card:hover{
+    transform: scale(1.15);
+}
