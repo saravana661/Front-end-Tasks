@@ -19,10 +19,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(184,75,171,1) 56%, rg
    border-style: solid;
    padding: 0%;
 }
-.about .card{
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,165,184,1) 63%, rgba(0,212,255,1) 100%);
-}
 
 .response {
     margin: 25px ;
